@@ -1,0 +1,121 @@
+/* General */
+body {
+    width: 100vw;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b0cfa8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    width: 100%;
+    font-size: 30px;
+    background-color: #4e6e3f;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(219, 223, 27, 0.658);
+    text-transform: uppercase;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #cbce27be;
+}
+
+/* Main */
+main {
+    height: 60vh;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.castle-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.castle-box:hover {
+    transform: translateY(-50px);
+    box-shadow: 0 8px 16px rgba(148, 150, 23, 0.74);
+}
+
+.castle-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.castle-box h2 {
+    color: #444;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.castle-box p {
+    margin-bottom: 30px;
+}
+
+.learn-more {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.learn-more:hover {
+    background-color: #c2ce13c4;
+}
+
+/* Footer */
+footer {
+    background-color: #4e6e3f;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 90px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 160px ;
+}
